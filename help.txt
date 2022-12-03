@@ -1,0 +1,12 @@
+----------- ANDREW'S HELP FILE -----------
+
+Commonly used commands:
+
+    -i          install a project of mine. It receives the name
+                of the project to be installed as its argument.
+
+    -u          update Andrew
+
+    -h          show Andrew's help file. If you'd like to read this
+                file in portuguese, please provide pt as the
+                argument.

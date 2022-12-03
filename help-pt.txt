@@ -1,0 +1,11 @@
+----------- ARQUIVO DE AJUDA DO ANDREW -----------
+
+Comandos comumente usados:
+
+    -i          instala um dos meus projetos. Você deve informar
+                o nome do projeto como segundo argumento.
+
+    -u          atualiza o Andrew
+
+    -h          exibe o arquivo de ajuda (em inglês). Se quiser
+                lê-lo em português, informe pt como argumento.
