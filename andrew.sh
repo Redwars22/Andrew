@@ -37,6 +37,17 @@ then
     exit 1
 fi
 
+if [ $1 = "-i" ] && [ $2 = "gustavoevil-game" ]
+then
+    echo "\n🌐️ Downloading Gustavo Evil: O Retorno do Norton..."
+    wget "https://github.com/Redwars22/GustavoEvil/releases/download/v0.0.7-demo/GustavoEvil-1.0-pc.zip"
+    unzip "GustavoEvil-1.0-pc.zip"
+    cd "GustavoEvil-1.0-pc"
+    echo "\n🎮️ Opening Gustavo Evil: O Retorno do Norton..."
+    sh GustavoEvil.sh
+    exit 1
+fi
+
 if [ $1 = "-h" ] && [ $2 = "pt" ]
 then
     clear
