@@ -40,7 +40,7 @@ fi
 if [ $1 = "-i" ] && [ $2 = "gustavoevil-game" ]
 then
     echo "\n🌐️ Downloading Gustavo Evil: O Retorno do Norton..."
-    wget "https://github.com/Redwars22/GustavoEvil/releases/download/v0.0.7-demo/GustavoEvil-1.0-pc.zip"
+    wget "https://github.com/Redwars22/GustavoEvil/releases/download/v0.0.8-demo/GustavoEvil-1.0-pc.zip"
     echo "\n📦️ Unzipping Gustavo Evil: O Retorno do Norton..."
     unzip "GustavoEvil-1.0-pc.zip"
     cd "GustavoEvil-1.0-pc"
