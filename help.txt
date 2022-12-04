@@ -10,3 +10,9 @@ Commonly used commands:
     -h          show Andrew's help file. If you'd like to read this
                 file in portuguese, please provide pt as the
                 argument.
+
+    -fix        install all things Andrew is gonna need to download
+                and install the projects in your machine (unzip, ruby,
+                npm, typescript, etc.)
+
+Please visit my GitHub profile: https://github.com/Redwars22
