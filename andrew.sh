@@ -94,6 +94,12 @@ then
     exit 1
 fi
 
+if [ $1 = "-i" ] && [ $2 = "binotauro" ] && [ $3 = "--pre-release" ]
+then
+    echo "\nERROR, PACKAGE NOT AVAILABLE FOR DOWNLOAD YET!"
+    exit 1
+fi
+
 if [ $1 = "-u" ]
 then
     clear
