@@ -94,7 +94,7 @@ then
     exit 1
 fi
 
-if [ $1 = "-i" ] && [ $2 = "lgbtscript" ] && [ $3 = "--release-preview" ]
+if [ $1 = "-i" ] && [ $2 = "lgbtscript" ] && [ $3 = "-release-preview" ]
 then
     echo "\nDownloading LGBTScript Release Preview..."
     mkdir lgbtscript && cd lgbtscript
@@ -102,6 +102,17 @@ then
     unzip "gabriellang_v0.6_release_preview.zip"
     echo "\nOK!!"
     exit 1
+fi
+
+if [ $1 = "-i" ] && [ $2 = "fictocpp" ] && [ $3 = "-release-preview" ]; then
+    echo "\n🌐️ Downloading FictoC++..."
+    mkdir fictocpp && cd fictocpp
+    wget "https://github.com/Redwars22/fictocpp/releases/download/v0.7-release-preview/fictolang_v0.6_release_preview.zip"
+    unzip "fictolang_v0.6_release_preview.zip"
+    echo "\nInstalling FictoC++ dependencies..."
+    sudo apt-get install g++ && sudo apt-get install mingw-w64 && echo "\nDONE!!!"
+    clear
+    ./ficto exemplo.fpp
 fi
 
 if [ $1 = "-u" ]
