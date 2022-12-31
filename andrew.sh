@@ -94,13 +94,13 @@ then
     exit 1
 fi
 
-if [ $1 = "-i" ] && [ $2 = "lgbtscript" ] && [ $3 = "-release-preview" ]
-then
-    echo "\nDownloading LGBTScript Release Preview..."
-    mkdir lgbtscript && cd lgbtscript
-    wget "https://github.com/gabrielficto/ObjGabriel/releases/download/v0.6-release-preview/gabriellang_v0.6_release_preview.zip"
-    unzip "gabriellang_v0.6_release_preview.zip"
-    echo "\nOK!!"
+if [ $1 = "-i" ] && [ $2 = "csstotw" ] && [ $3 = "-alpha" ]; then
+    echo "\n🌐️ Downloading CSSToTW..."
+    git clone https://github.com/Redwars22/csstotw
+    cd csstotw
+    npm install prompt-sync
+    npm install
+    node csstotw.js
     exit 1
 fi
 
