@@ -107,8 +107,8 @@ fi
 if [ $1 = "-i" ] && [ $2 = "fictocpp" ] && [ $3 = "-release-preview" ]; then
     echo "\n🌐️ Downloading FictoC++ Release Preview 2..."
     mkdir fictocpp && cd fictocpp
-    wget "https://github.com/Redwars22/fictocpp/releases/download/v0.9-release-preview/fictolang_v0.9_release_preview.zip"
-    unzip "fictolang_v0.8_release_preview.zip"
+    wget "https://github.com/Redwars22/fictocpp/releases/download/v0.10-release-candidate/fictolang_v0.10_release_preview.zip"
+    unzip "fictolang_v0.10_release_preview.zip"
     echo "\nInstalling FictoC++ dependencies..."
     sudo apt-get install g++ && sudo apt-get install mingw-w64 && echo "\nDONE!!!"
     clear
