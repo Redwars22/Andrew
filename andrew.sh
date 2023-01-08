@@ -37,18 +37,6 @@ then
     exit 1
 fi
 
-if [ $1 = "-i" ] && [ $2 = "gustavoevil-game" ]
-then
-    echo "\n🌐️ Downloading Gustavo Evil: O Retorno do Norton..."
-    wget "https://github.com/Redwars22/GustavoEvil/releases/download/v0.0.8-demo/GustavoEvil-1.0-pc.zip"
-    echo "\n📦️ Unzipping Gustavo Evil: O Retorno do Norton..."
-    unzip "GustavoEvil-1.0-pc.zip"
-    cd "GustavoEvil-1.0-pc"
-    echo "\n🎮️ Opening Gustavo Evil: O Retorno do Norton..."
-    sh GustavoEvil.sh
-    exit 1
-fi
-
 if [ $1 = "-i" ] && [ $2 = "evil" ]
 then
     echo "\n🌐️ Downloading EvilCSS..."
@@ -59,16 +47,6 @@ then
     echo "\n⚙️  Setting EvilCSS up and opening its interpreter..."
     ruby evil.rb
     code example.evil
-    exit 1
-fi
-
-if [ $1 = "-i" ] && [ $2 = "gustavojs" ]
-then
-    echo "\n🌐️ Downloading GustavoJS with NPM..."
-    npm install gustavojs
-    cd node_modules/gustavojs
-    echo "\n🎮️ Opening your GustavoJS project in Visual Studio Code..."
-    code .
     exit 1
 fi
 
