@@ -50,15 +50,6 @@ then
     exit 1
 fi
 
-if [ $1 = "-i" ] && [ $2 = "abbie-cli" ]
-then
-    echo "\n🌐️ Downloading AbbieCLI..."
-    wget "https://github.com/Redwars22/abbie/releases/download/experimental2/abbie.jar"
-    echo "\nOpening AbbieCLI with Java (⚠️ Please make sure you have it installed already)..."
-    java -jar "abbie.jar"
-    exit 1
-fi
-
 if [ $1 = "-i" ] && [ $2 = "arctic" ]
 then
     echo "\n🌐️ Downloading Arctic..."
