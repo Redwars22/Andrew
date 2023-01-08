@@ -11,8 +11,6 @@ Para atualizá-lo, digite `sh andrew.sh -u`. Para instalar algum projeto meu, us
 | [CSSToTW](https://github.com/Redwars22/csstotw) | `sh andrew.sh -i csstotw -alpha` |
 | [Schonheit](https://github.com/Redwars22/Schonheit) | `sh andrew.sh -i schonheit` |
 | [Titanium](https://github.com/Redwars22/Titanium) | `sh andrew.sh -i titanium` |
-| [Gustavo Evil e o Retorno do Norton - VN](https://github.com/Redwars22/GustavoEvil) | `sh andrew.sh -i gustavoevil-game` |
 | [EvilCSS](https://github.com/Redwars22/Evil) | `sh andrew.sh -i evil` |
-| [GustavoJS](https://github.com/Redwars22/GustavoJS) | `sh andrew.sh -i gustavojs` |
 | [Arctic](https://github.com/Redwars22/Arctic) | `sh andrew.sh -i ` |
 | [FictoC++](https://github.com/Redwars22/fictocpp) | `sh andrew.sh -i fictocpp -release-preview` |
